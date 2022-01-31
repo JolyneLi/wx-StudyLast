@@ -1,2 +1,22 @@
 <!--pages/test/test.wxml-->
+<wxs src="../../utils/tools.wxs" module="tools"></wxs>
+<wxs src = '../test/test.wxs' module="getStatus"></wxs>
+<wxs module="tis">
+    var work = function (s) {
+        return '测试'
+    }
+    var status = function (status) {
+        switch (params) {
+            case "10": return "已完成";
+            case "20": return "已取消";
+            default: return ""
+        }
+    }
+    module.exports = {
+        work: work,
+        status:status
+    }
+
+</wxs>
 <text>pages/test/test.wxml</text>
+<view>{{tools.splitPhone('13505233753')}}</view>

@@ -1,0 +1,11 @@
+var status = function (status) {
+    switch (params) {
+        case "10": return "已完成";
+        case "20": return "已取消";
+        default: return ""
+    }
+}
+// 导出无法简写
+module.exports = {
+    status:status
+}

@@ -5,19 +5,19 @@ Page({
      * 页面的初始数据
      */
     data: {
-        name:null
+        num:13505233753
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        console.log(options);
-        console.log(this.data.name);
     },
 
     /**
      * 生命周期函数--监听页面初次渲染完成
+     * 修改navigation的样式文字
+     * 一个页面只调用一次
      */
     onReady: function () {
 
