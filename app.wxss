@@ -1,0 +1,26 @@
+/**app.wxss**/
+/* 全局样式表 */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+/* 全局配置文件 app.json 常见的配置 pages window tabBar style */
+/* window 的 navigationBar 样式 */
+/* 顶部tabBar没有图标 */
+/* tabBar最少两个 最多5个 */
+ /* tabBar的6个组成
+ 1.background 背景色 2.selecticonPath 选中的图片路径 3.borderStyle 上边框的颜色 4. iconPath 未选中的图片路径 5. selectCorlor 6.corlor */
+
+ /* 声明式导航
+ 使用导航标签 <navigator url="/***//***" open-type="">
+跳转到tabBar上 open-type 必须是 switchTab
+跳转到非tabBar上 open-type 必须是 navigate
+url 必须以/开头 */
+
+/* 自定义编译模式可以传参 参数在options里边 */

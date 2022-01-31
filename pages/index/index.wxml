@@ -1,0 +1,9 @@
+<view style="height: 300rpx;background-color: aqua; width: 300rpx;"></view>
+<view id="mines"> </view>
+<view style="height: 300rpx;background-color: red; width: 300rpx;" id="mine"></view>
+<view bindtap="bindTap">
+  123
+</view>
+<navigator url="/pages/test/test" open-type="switchTab">
+  123
+</navigator>
